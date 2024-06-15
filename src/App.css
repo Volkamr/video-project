@@ -84,13 +84,13 @@
   .background{
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .content{
     display: block;
     width: 80%;
-    height: 65%;
-    margin: 5rem 0 5rem 0;
+    height: 50%;
   }
 
   .info{
