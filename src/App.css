@@ -84,20 +84,39 @@
   .background{
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .content{
     display: block;
-    height: 72vh;
+    width: 80%;
+    height: 65%;
+    margin: 5rem 0 5rem 0;
   }
 
   .info{
-    margin: 0 0 5rem 1rem;
+    margin: 0 0 2.5rem 0;
+    width: 100%;
+  }
+
+  .title{
+    margin-bottom: .5rem;
+  }
+
+  .subtitle{
+    margin-bottom: .5rem;
+  }
+
+  .icon{
+    margin-bottom: .5rem;
+  }
+
+  .header{
+    margin-bottom: 1.5rem;
   }
 
   .video{
-    margin: 0 3rem 0 3rem;
+    width: 100%;
+    height: 160px;
   }
 
 }
