@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background{
+  background-color: #151619;
+  height: 100vh;
+}
+
+.content{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.info{
+  width: 30rem;
+  margin: 0 5rem 0 0;
+}
+
+.header{
+  margin-bottom: 3rem;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  margin-right: 1rem;
+}
+
+.icon{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #762CBF;
+}
+
+.title{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  color: #D1D0D4;
+  margin-bottom: 1rem;
+}
+
+.header p{
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #5D5E5B;
+}
+
+.subtitle{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  color: #CAD1CB;
+  margin-bottom: 1rem;
+}
+
+.comment{
+  font-family: "Roboto", sans-serif;
+  font-size: .8rem;
+  color: #897E76;
+}
+
+.video{
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1024px){
+
+  .background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content{
+    display: block;
+    height: 72vh;
+  }
+
+  .info{
+    margin: 0 0 5rem 1rem;
+  }
+
+  .video{
+    margin: 0 3rem 0 3rem;
+  }
+
+}
